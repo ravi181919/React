@@ -1,0 +1,47 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#root, .container
+{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #000, #111, #222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card, .nest, .nest2
+{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading , h1 , h2
+{
+    color: red;
+}
+.btn 
+{
+    color: #fff;
+    background: #222;
+    border: none;
+    padding: 0.7vw 2vw;
+    border-radius: 5px;
+} 
+
+
+
